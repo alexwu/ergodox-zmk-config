@@ -17,8 +17,8 @@
     &none      &none      &kp LALT   &kp LALT   &kp LGUI                                               &kp SQT   &kp MINUS   &kp LBKT   &kp RBKT   &kp EQUAL
                                                            &kp DEL    &kp HOME   &kp END    &kp INS
                                                                       &kp PGUP   &kp PGDN
-                                                &kp SPC    &kp LCTL                         &kp LSFT   &kp RET
-                                                                      &mo 1   &mo 1
+                                                &kp SPC    &mo 1                           &mo 1       &kp RET
+                                                                      &mo 2   &mo 2
                         >;
                 };
 
