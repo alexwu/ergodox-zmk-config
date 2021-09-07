@@ -2,6 +2,7 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
+#include <macos_mappings.h>
 
 / {
     keymap {
@@ -13,21 +14,21 @@
     &kp GRAV            &kp NUM_1       &kp NUM_2  &kp NUM_3  &kp NUM_4  &kp NUM_5  &kp PRSC   &none      &kp NUM_6  &kp NUM_7  &kp NUM_8  &kp NUM_9  &kp NUM_0      &kp LA(BKSP)
     &kp TAB             &kp Q           &kp W      &kp E      &kp R      &kp T      &kp M_VOLD       &kp M_VOLU      &kp Y      &kp U      &kp I      &kp O      &kp P          &kp BSLH
     &mt LCTL ESC        &kp A           &kp S      &kp D      &kp F      &kp G                            &kp H      &kp J      &kp K      &kp L      &kp SCLN       &kp BKSP
-    &mt LSHFT LPAR       &kp Z           &kp X      &kp C      &kp V      &kp B      &kp MINUS &kp EQUAL &kp N      &kp M      &kp CMMA   &kp DOT    &kp FSLH       &mt RSHFT RPAR
-    &kp CAPS            &none           &kp LALT   &kp LALT   &kp LCTL                                            &kp SQT    &kp MINUS  &kp LBKT   &kp RBKT       &kp EQUAL
-                                                                         &kp LG(SPC) &kp HOME   &kp END    &kp INS
+    &mt LSHFT LPAR      &kp Z           &kp X      &kp C      &kp V      &kp B      &kp MINUS &kp EQUAL &kp N      &kp M      &kp CMMA   &kp DOT    &kp FSLH       &mt RSHFT RPAR
+    &kp CAPS            &kp HYPER       &kp LALT   &kp LCTL   &kp LGUI                                            &kp SQT    &kp MINUS  &kp LBKT   &kp RBKT       &kp EQUAL
+                                                                         &kp ALFRED &kp HOME   &kp END    &kp INS
                                                                                     &kp PGUP   &kp PGDN
-                                                              &kp SPC    &kp LGUI                            &mo 1       &kp RET
-                                                                                    &mo 1      &mo 2
+                                                              &kp SPC    &mo 1                            &mo 1       &kp RET
+                                                                                    &mo 2      &mo 2
                         >;
                 };
 
                 layer_1 {
                         bindings = <
     &bootloader
-    &none      &none            &none           &none            &none      &none      &none      &none      &none      &none      &none      &none      &none      &bt BT_CLR
-    &none      &kp F1           &kp LA(LG(UARW))    &kp F3           &kp F4     &none      &none      &none      &none      &none      &none      &none      &none      &out OUT_USB
-    &none      &kp LC(LA(LG(H))) &kp LA(LG(DARW))    &kp  LC(LA(LG(K)))    &kp F8     &none                            &kp LARW   &kp DARW   &kp UARW   &kp RARW   &none      &out OUT_BLE
+    &none      &none            &none           &none            &none      &none      &none      &none      &none      &none      &none      &none      &none      &none
+    &none      &kp F1           &kp LA(LG(UARW))    &kp F3           &kp F4     &none      &none      &none      &none      &none      &none      &none      &none      &none
+    &none      &kp LC(LA(LG(H))) &kp LA(LG(DARW))    &kp  LC(LA(LG(K)))    &kp F8     &none                            &kp LARW   &kp DARW   &kp UARW   &kp RARW   &none      &none
     &none      &kp F9           &kp F10         &kp F11          &kp F12    &none      &none      &none      &none      &none      &none      &none      &none      &none
     &none      &none            &none           &none            &none                                                  &none      &kp LC(LARW)   &kp LC(DARW)   &kp LC(UARW)   &kp LC(RARW)
                                                                  &none      &none      &none      &none
