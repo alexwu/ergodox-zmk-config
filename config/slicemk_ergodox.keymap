@@ -15,7 +15,7 @@
     &mt LCTL ESC        &kp A        &kp S      &kp D      &kp F      &kp G                   						 &kp H      &kp J      &kp K      &kp L      &kp SCLN       &kp BKSP
     &mt LSHFT LPAR      &kp Z        &kp X      &kp C      &kp V      &kp B      &kp MINUS &kp EQUAL 			 &kp N 			&kp M      &kp CMMA   &kp DOT    &kp FSLH       &mt RSHFT RPAR
     &kp LA(LS(LCTRL))   &kp CAPS     &kp LC(LALT)   &kp LALT   &kp LGUI                                            &kp SQT    &kp LARW  &kp DARW   &kp UARW       		&kp RARW
-                                                                         &kp LG(SPC) &kp HOME   &kp END    &kp INS
+                                                                         &kp LG(SPC) &kp HOME   &kp END    &kp LA(T)
                                                                                     &kp PGUP   &kp PGDN
                                                               &kp SPC    &mo 1                            &mo 1       &kp RET
                                                                                     &mo 2      &mo 2
