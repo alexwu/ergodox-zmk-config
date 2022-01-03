@@ -26,9 +26,9 @@
                         bindings = <
     &bootloader
     &none      	     &none            &none           &none            &none      &none      &none      &none      &none      &none      &none      &none      &none      &none
-    &kp LC(TAB)      &kp F1           &kp LA(LG(UARW))    &kp F3       &kp F4     &none      &none      &none      &kp F1      &none      &none      &none      &none      &none
+    &kp LC(TAB)      &kp F1           &kp LA(LG(UARW))    &kp F3       &kp F4     &none      &none      &kp F4      &kp F2      &none      &none      &none      &none      &none
     &kp LC(LS(TAB))  &kp LC(LA(LG(H))) &kp LA(LG(DARW))    &kp  LC(LA(LG(K)))    &kp F8     &none                  &kp LARW   &kp DARW   &kp UARW   &kp RARW   &none      &none
-    &kp LBRC      			 &kp F9           &kp F10         &kp F11          &kp F12    &none      &none      &none      &none      &none      &none      &none      &none      &kp RBRC
+    &kp LBRC      			 &kp F9           &kp F10         &kp F11          &kp F12    &none      &kp F3      &kp F1      &none      &none      &none      &none      &none      &kp RBRC
     &none      	&none   &none   &none   &none                                                  &none      &kp LA(LS(LC(LARW)))   &kp LA(LS(LC(DARW)))   &kp LA(LS(LC(UARW)))   &kp LA(LS(LC(RARW)))
                                                                  &none      &none      &none      &none
                                                                             &none      &none
