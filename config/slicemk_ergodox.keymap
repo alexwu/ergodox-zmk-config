@@ -11,14 +11,14 @@
                 bindings = <
     &bootloader
     &kp GRAV            &kp NUM_1    &kp NUM_2          &kp NUM_3  &kp NUM_4  &kp NUM_5   &kp NUM_6   &kp NUM_7   &kp NUM_8  &kp NUM_9  &kp NUM_0  &kp MINUS  &kp EQUAL      &kp LA(BKSP)
-    &kp TAB             &kp Q        &kp W              &kp E      &kp R      &kp T       &kp LBKT     &kp RBKT     &kp Y      &kp U      &kp I      &kp O      &kp P          &kp BSLH
+    &kp TAB             &kp Q        &kp W              &kp E      &kp R      &kp T       &kp LA(LS(LC(V)))     &kp RBKT     &kp Y      &kp U      &kp I      &kp O      &kp P          &kp BSLH
     &mt LCTL ESC        &kp A        &kp S              &kp D      &kp F      &kp G                                 &kp H      &kp J      &kp K      &kp L      &kp SCLN       &kp BKSP
-    &mt LSHFT LPAR      &kp Z        &kp X              &kp C      &kp V      &kp B       &kp MINUS    &kp EQUAL    &kp N      &kp M      &kp CMMA   &kp DOT    &kp FSLH       &mt RSHFT RPAR
+    &mt LSHFT LPAR      &kp Z        &kp X              &kp C      &kp V      &kp B       &kp LG(SPC)    &kp EQUAL    &kp N      &kp M      &kp CMMA   &kp DOT    &kp FSLH       &mt RSHFT RPAR
     &kp LA(LS(LCTRL))   &kp CAPS     &kp LC(LALT)       &kp LALT   &kp LGUI                                                   &kp SQT    &kp LARW   &kp DARW   &kp UARW       &kp RARW
                                                                               &kp LG(SPC) &kp HOME     &kp END      &kp LA(T)
                                                                                           &kp PGUP     &kp PGDN
                                                               &kp SPC    &mo 1                         &mo 1        &kp RET
-                                                                                &kp LG(SPC)      &mo 2
+                                                                                &kp LBKT      &kp RBKT
                         >;
                 };
 
