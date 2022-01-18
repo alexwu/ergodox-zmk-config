@@ -15,8 +15,8 @@
     &mt LCTL ESC        &kp A        &kp S              &kp D      &kp F      &kp G                                 &kp H      &kp J      &kp K      &kp L      &kp SCLN       &kp BKSP
     &mt LSHFT LPAR      &kp Z        &kp X              &kp C      &kp V      &kp B       &kp LG(SPC)    &kp LC(N)    &kp N      &kp M      &kp CMMA   &kp DOT    &kp FSLH       &mt RSHFT RPAR
     &kp LA(LS(LCTRL))   &kp CAPS     &kp LC(LALT)       &kp LALT   &kp LGUI                                                   &kp SQT    &kp RGUI   &kp DARW   &kp UARW       &kp RARW
-                                                                              &kp LG(SPC) &kp HOME     &kp END      &kp LA(T)
-                                                                                          &kp PGUP     &kp PGDN
+                                                                              &kp F1 &kp F2     &kp F5      &kp F4
+                                                                                          &kp F3     &kp F6
                                                               &kp SPC    &mo 1                         &mo 1        &kp RET
                                                                                 &kp LBKT      &kp RBKT
                         >;
@@ -26,9 +26,9 @@
                         bindings = <
     &bootloader
     &none      	     &none            &none           &none            &none      &none      &none      &none      &none      &none      &none      &none      &none      &none
-    &kp LC(TAB)      &kp F1           &kp LA(LG(UARW))    &kp F3       &kp F4     &none      &kp F5      &kp F4      &kp F2      &none      &none      &none      &none      &none
+    &kp LC(TAB)      &kp F1           &kp LA(LG(UARW))    &kp F3       &kp F4     &none      &kp F9      &kp F10      &kp F2      &none      &none      &none      &none      &none
     &kp LC(LS(TAB))  &kp LC(LA(LG(H))) &kp LA(LG(DARW))    &kp  LC(LA(LG(K)))    &kp F8     &none                  &kp LARW   &kp DARW   &kp UARW   &kp RARW   &none      &none
-    &kp LBRC         &kp F9           &kp F10         &kp F11          &kp F12    &none      &kp F3      &kp F1      &none      &none      &none      &none      &none      &kp RBRC
+    &kp LBRC         &kp F9           &kp F10         &kp F11          &kp F12    &none      &kp F7      &kp F8      &none      &none      &none      &none      &none      &kp RBRC
     &none      	&none   &none   &none   &none                                                  &none      &kp LA(LS(LC(LARW)))   &kp LA(LS(LC(DARW)))   &kp LA(LS(LC(UARW)))   &kp LA(LS(LC(RARW)))
                                                                  &none      &none      &none      &none
                                                                             &none      &none
